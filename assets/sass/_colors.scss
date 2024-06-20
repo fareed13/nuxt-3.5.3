@@ -1,0 +1,153 @@
+// APP 2.0 LAYOUT COLORS
+$app-main-background: #ffffff; // theme background color
+$app-darker-background: #000000;
+$app-main-accent-color: #d5242c; // theme main accent color
+$app-main-accent-dark: #9e0007;
+$app-main-accent-with-transparent: rgba(213, 36, 44, 0.8);
+$app-main-accent-with-transparent2: rgba(213, 36, 44, 0.65);
+
+//$app-rgba-with-transparent:                   rgba(213, 36, 44,0.65); //
+$app-headers-color: #263238; // h1, h2... text color
+
+$app-text-color: #455a64; // paragraph text color
+$app-grey-color: #c7c7c7; // lighter text color
+
+$slider-text-color: #fff; // main header slider text color
+$app-whitish-background: #f7f7f7;
+$button-text-color: darken($app-main-accent-color, 30%); // change the button text color
+// change the hollow buttons text color
+
+$form-background: rgba(255, 255, 255, 0.85);
+$white-border-color: #ffffff;
+$black-border-color: #000000;
+$header-nav-shadow: rgba(0, 0, 0, 0.25);
+
+// new properties
+$header-background: #090a0a; //black background color
+$footer-background: #0d0f12; // footer background color
+$text-black: #000; // for all black text
+$text-white: #fff;
+$bottom-layer-color: rgb(43, 43, 43);
+$slider-overlay: rgba(0, 0, 0, 0.4);
+$card-overlay: rgba(0, 0, 0, 0.8);
+$table-active-background: #380b0d;
+$top-shape-color: #2b2b2b;
+$popup-left-shape-color: #3f0b0d;
+
+$checkout-table-background: #f4f4f4;
+$checkout-table-td-border: #cccccc;
+$checkout-table-th-border: #666666;
+$checkout-form-background: #f9f9f9;
+$checkout-form-border: #e7e7e7;
+$checkout-form-field-border: rgba(2, 2, 2, 0.25);
+$checkout-field-placeholder: rgba(0, 0, 0, 0.502);
+$checkout-productBox-background: #fbfbfb;
+$faq-border-color: rgb(234, 234, 234);
+$galary-nav-background: #555555;
+$review-indi-transparent: rgba(255, 255, 255, 0.302);
+$staying-background: rgb(240, 240, 240);
+$card-header-background: #eaeaea;
+$text-shadow-color: rgba(0, 0, 0, 0.15);
+
+// landing page
+$form-box-transparent-bg: rgba(135, 135, 135, 0.439);
+$text-color-transparent: rgba(0, 0, 0, 0.7);
+
+// fitnessclases section background color
+
+// $header-background: #090a0a;
+// $app-white-background: #ffffff;
+// $app-darker-background: #000000;
+// $app-text-color: #d5242c;
+// $app-main-accent-color: #d5242c;
+// $app-main-accent-dark: #9e0007;
+// $app-grey-color: #c7c7c7;
+// $white-border-color: #ffffff;
+// $table-active-background: #380b0d;
+// $top-shape-color: #2b2b2b;
+// $faq-header-border-color: #eaeaea;
+// $galary-nav-background: #555555;
+// $form-background: rgba(255,255,255,0.85);
+// $gray-border-color: #f4f4f4;
+// $footer-background: #0d0f12;
+// $popup-left-shape-color: #3f0b0d;
+// $app-whitish-background: #f7f7f7;
+// $text-black: #000000,;
+// $text-white: #ffffff;
+// $checkout-btn-color: #494949;
+// $checkout-form-border2: #cfcfcf;
+// $checkout-form-background: #f9f9f9;
+// $checkout-form-border: #e7e7e7;
+// $checkout-table-th-border: #dbdbdb;
+// $checkout-table-td-border: #e67c80;
+// $app-headers-color: #263238;
+// $slider-text-color: #fff;
+// $button-text-color: darken(app-main-accent-color, 30%);
+// $black-border-color: #000000;
+// $bottom-layer-color: rgb(43,43,43);
+// $slider-overlay: rgba(0,0,0,0.40);
+// $checkout-productBox-background: #fbfbfb;
+// $faq-border-color: rgb(234, 234, 234);
+// $staying-background: rgb(240, 240, 240);
+
+// fonts
+
+/***********************
+     Common Section
+************************/
+body {
+  background: $app-main-background;
+  color: $text-white;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bolder;
+}
+
+h1 {
+  font-weight: bold;
+  color: $slider-text-color;
+  text-transform: uppercase;
+  font-size: 60px;
+  line-height: 1;
+  margin-top: 0;
+  span.clr-red {
+    color: $app-main-accent-color;
+  }
+}
+
+h2 {
+  font-size: 40px !important;
+  font-weight: bolder;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+h2.heading {
+  font-size: 36px !important;
+  font-weight: bolder;
+}
+
+h2.heading-black {
+  color: $text-black;
+}
+
+h2.heading-white {
+  color: $text-white;
+}
+
+h4 {
+  font-weight: bolder;
+  font-size: 20px;
+}
+.app-main-accent-color {
+  background-color: #d5242c;
+}
+.sell-product span.v-btn__content {
+  display: block !important;
+  // background-color: #d5242c;
+  color: white;
+}

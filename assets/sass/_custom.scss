@@ -1,0 +1,917 @@
+
+.picker-dialog {
+    position: fixed!important;
+    top: 50%!important;
+    left: 50%!important;
+    transform: translate(-50%, -50%)!important;
+    background-color: #fff!important;
+    border: 1px solid #acacac!important;
+    width: auto!important;
+    padding: 0!important;
+    z-index: 30001!important;
+    overflow: auto!important;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, .2)!important;
+}
+.vuedatepicker-border-none .dp__today {
+    border: none !important;
+    background-color: transparent;
+}
+.vuedatepicker-border-none .dp__pointer {
+    cursor: pointer;
+    background-color: transparent;
+    color: black;
+}
+.vuedatepicker-border-none .dp__active_date{
+    border: none !important;
+    background-color: transparent;
+}
+
+.ql-snow .ql-editor h1 {
+    color: black !important;
+}
+.v-row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+// salon footer
+@media only screen and (max-width: 767px) {
+    .salonfooter {
+        .social-icons {
+            text-align: center;
+            .v-btn {
+                .v-btn__content {
+                    margin-top: -12px;
+                }
+            }
+        }
+    }
+}
+// salonServices
+.sasahsalon-services {
+    .v-slide-group {
+        .v-slide-group__prev {
+            position: absolute;
+            right: 270px;
+            z-index: 9;
+            // top: -60px;
+            border: 1px solid #f37028;
+            text-align: center;
+            height: 36px;
+            align-items: center;
+            justify-content: center;
+            display: flex !important;
+            min-width: 40px;
+        }
+    }
+    .v-slide-group {
+        .v-slide-group__next {
+            position: absolute;
+            right: 210px;
+            z-index: 9;
+            // top: -60px;
+            border: 1px solid #f37028;
+            text-align: center;
+            height: 36px;
+            align-items: center;
+            justify-content: center;
+            display: flex !important;
+            min-width: 40px;
+        }
+        .v-slide-group__next--disabled,
+        .v-slide-group__prev--disabled {
+            pointer-events: inherit;
+        }
+    }
+}
+// salonTestimonials
+.salon-testimonials {
+    .v-window__container {
+        .v-window__controls {
+            .v-btn {
+                background: rgba(0, 0, 0, 0.3);
+                color: white;
+                font-size: 22px;
+            }
+        }
+    }
+}
+
+// fitnessCarousel
+.fitnessCarousel {
+    .v-window__container {
+        .v-window__controls {
+            .v-btn {
+                background: rgba(0, 0, 0, 0.3);
+                color: white;
+                font-size: 22px;
+            }
+        }
+    }
+}
+// salonfooter
+.footer-navigation .v-list-item .v-list-item__content {
+    display: flex;
+}
+// BlogAddEdit
+.blogAddEdit-file .v-list-item .v-list-item__content {
+    display: flex;
+    cursor: pointer;
+}
+.center-video .v-input__control .v-field__field .v-field__input {
+    justify-content: center !important;
+}
+// BlogDetail
+.blogDetail-files .v-list-item .v-list-item__content {
+    display: flex;
+    cursor: pointer;
+}
+// whatweofferRightIMage
+.custom-offerright .v-list-item .v-list-item__content {
+    display: flex;
+}
+// WhatweOffer
+.custom-group-WhatweOffer .v-list-item .v-list-item__content {
+    display: flex;
+    height: 100px;
+    margin-right: 20px;
+    text-align: center;
+    align-items: center;
+    // background-color: red;
+}
+// eventAddEdit
+.ctkpicker .date-time-picker .field-clear-button {
+    background-color: lightgray;
+    right: 0px !important;
+    left: 340px !important;
+}
+
+// jhrRecoverdCaption
+.custom-group .v-list-item .v-list-item__content {
+    display: flex;
+    height: 100px;
+    margin-right: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+// jhrRecoverdCaption
+.custom-group .v-list-item .v-list-item__content {
+    display: flex;
+    height: 100px;
+    margin-right: 20px;
+    text-align: center;
+    align-items: center;
+}
+.custom-group .v-list-item__content:hover {
+    background-color: lightgray !important;
+    height: 100px;
+    width: 22%;
+}
+// closed jhrRecoverdCaption
+
+// organizationAddEdit
+.organization-image .v-img__img {
+    position: fixed;
+    height: 140px;
+    width: 170px;
+}
+
+// reviesplash component
+.saying .v-img__img {
+    height: auto !important;
+}
+// blockedRightImage component
+.right-image-custom .v-responsive__sizer {
+    padding-bottom: 2px !important;
+}
+// teamcoaches component
+.instructer-media .v-img__img {
+    width: 350px !important;
+}
+// checkoutStep2
+.card-width-custom .v-img__img {
+    width: 20px !important;
+}
+.FadedLeftimage .v-responsive__sizer {
+    padding-bottom: 0px !important;
+}
+
+// remove arrow when type number we just have to add class remove-arrow
+.remove-arrow input[type='number'] {
+    -moz-appearance: textfield;
+}
+.remove-arrow input::-webkit-outer-spin-button,
+.remove-arrow input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.mobile-view-reviews .v-window__container .v-window-item .v-img {
+    // background-color: green;
+    align-items: center;
+    width: 240px;
+    margin: auto;
+    font-size: 12px;
+    padding: 8px;
+}
+.mobile-view-reviews {
+    .v-window__container {
+        .v-window__controls {
+            .v-btn {
+                // background: rgba(0, 0, 0, 0.3);
+                background-color: transparent !important;
+                color: black !important;
+                font-size: 22px;
+                box-shadow: none !important;
+                margin: -15px;
+            }
+            .v-btn--disabled {
+                opacity: 0.55;
+                margin-left: -12px;
+            }
+        }
+    }
+}
+.slide-container-asdfgh .v-slide-group__content {
+    // added css for classes/kids-martial-arts/ file ReviewsClean for center item of slide group
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+// mac
+@media only screen and (max-width: 1500px) and (min-width: 1400px) {
+    .ctkpicker .date-time-picker .field-clear-button {
+        left: 250px !important;
+    }
+}
+// QA laptop
+@media only screen and (max-width: 1300px) {
+    .ctkpicker .date-time-picker .field-clear-button {
+        left: 250px !important;
+    }
+}
+.slide-container-asdfgh {
+    .v-slide-group {
+        .v-slide-group__prev {
+            font-size: 3rem;
+        }
+    }
+    .v-slide-group {
+        .v-slide-group__next {
+            font-size: 3rem;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .slide-container-asdfgh {
+        .v-slide-group {
+            .v-slide-group__prev {
+                font-size: 1rem;
+            }
+            .v-slide-group__next {
+                font-size: 1rem;
+                min-width: 33px !important;
+            }
+        }
+    }
+}
+// added this class to override error border of v-textfield
+// .v-input.v-input--error .v-field__outline {
+//   border: 1.3px solid !important;
+//   border-radius: 6px !important;
+// }
+// toast notification class override
+.toast-class {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 0 12px !important;
+    font-size: 14px !important;
+    border-radius: 0px !important;
+    min-height: 40px !important;
+    top: 4rem !important;
+    min-width: 200px !important;
+}
+.toast-body-class {
+    min-width: 100px !important;
+    text-align: center !important;
+    padding: 0 !important;
+}
+.time-table {
+    .theme--light.v-tabs > .v-tabs-bar {
+        background: none !important;
+        background-color: transparent !important;
+    }
+
+    .v-tabs-bar,
+    .v-application .deep-purple--text.text--accent-3 {
+        height: auto !important;
+    }
+}
+
+.desk-form {
+    .v-text-field--filled > .v-input__control > .v-input__slot,
+    .v-text-field--full-width > .v-input__control > .v-input__slot,
+    .v-text-field--outlined > .v-input__control > .v-input__slot {
+        min-height: 40px;
+    }
+
+    .v-text-field--outlined .v-label {
+        top: 10px;
+    }
+
+    .v-text-field__details {
+        display: none !important;
+    }
+}
+
+.bottom_request_form {
+    .v-text-field.v-text-field--enclosed .v-text-field__details,
+    .v-text-field__details {
+        display: none !important;
+    }
+}
+
+.our-program {
+    &.our-instructors {
+        .card {
+            .card-img {
+                height: 100% !important;
+            }
+        }
+        .card-title {
+            word-break: normal !important;
+        }
+    }
+    .card-title {
+        word-break: normal !important;
+    }
+    .v-image__image--cover {
+        background-size: cover !important;
+    }
+
+    .card {
+        .v-image__image--cover {
+            background-size: cover !important;
+        }
+    }
+}
+
+.bottom_request_form {
+    .side-modal {
+        .form-control {
+            .v-input__slot {
+                min-height: 38px !important;
+            }
+        }
+    }
+}
+.second-section,
+.first-section {
+    .v-btn__content {
+        display: block !important;
+    }
+}
+// .first-section .v-image__image.v-image__image--contain {
+//   background-size: 54% !important;
+
+//   @media (max-width: 1903px) {
+//     background-size: 40% !important;
+//   }
+
+//   @media (max-width: 1264px) {
+//     background-size: 600px !important;
+//   }
+
+//   @media (max-width: 959px) {
+//     background: none !important;
+//   }
+// }
+
+.bg-img-none {
+    .v-image__image.v-image__image--contain {
+        @media (max-width: 959px) {
+            background: none !important;
+        }
+    }
+
+    @media (max-width: 1263px) {
+        .container {
+            max-width: 1200px;
+        }
+    }
+}
+
+.inner-page {
+    h2 {
+        font-size: 35px;
+        color: #000000;
+        text-transform: uppercase;
+        line-height: 1.2;
+    }
+
+    h5 {
+        color: #9e0007;
+        font-size: 18px;
+    }
+
+    p {
+        color: #000000;
+        font-size: 16px;
+    }
+}
+
+.checkout-section {
+    &.live-checkout-section {
+        @media (max-width: 600px) {
+            .step-1 {
+                .v-text-field--outlined > .v-input__control > .v-input__slot {
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+    .v-text-field--outlined > .v-input__control > .v-input__slot {
+        min-height: 38px !important;
+        height: 38px !important;
+        margin-bottom: 0 !important;
+    }
+
+    .step-1 {
+        .v-text-field--outlined > .v-input__control > .v-input__slot {
+            max-width: 300px;
+        }
+    }
+
+    .v-text-field.v-text-field--solo .v-input__control {
+        min-height: 36px !important;
+    }
+
+    .v-text-field__details {
+        display: none;
+    }
+
+    @media (max-width: 600px) {
+        .select-program .v-input__slot {
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+    }
+}
+
+.checkout-page {
+    .footer-red-layer.new-footer-red-layer {
+        background: #d5242c !important;
+    }
+}
+.sell-product .v-btn__content {
+    display: block !important;
+}
+.footer {
+    .v-snack__wrapper {
+        background: none !important;
+        box-shadow: none !important;
+        margin-left: 0 !important;
+    }
+}
+.landing-page-banner {
+    &,
+    .v-carousel,
+    .v-window__container,
+    .v-image.v-carousel__item {
+        height: 250px !important;
+        @media (max-width: 600px) {
+            height: 250px !important;
+            padding-top: 5px;
+        }
+    }
+}
+.parent-saying {
+    .video-box {
+        .video-js.vjs-16-9,
+        .video-js.vjs-4-3,
+        .video-js.vjs-fluid,
+        .video-js .vjs-tech {
+            width: 100%;
+            max-width: 100%;
+            height: 100% !important;
+            max-height: 300px !important;
+        }
+    }
+}
+
+.v-application .v-list-item.primary--text {
+    color: #ff4d6a !important;
+    caret-color: pink !important;
+}
+.v-dialog {
+    .v-card {
+        .select-list-services {
+            .v-input__slot {
+                fieldset {
+                    // border-color: rgba(0, 0, 0, 1);
+                }
+            }
+        }
+    }
+}
+
+.edit-schedule {
+}
+.cus-switch {
+    .v-input__slot {
+        label {
+            color: #000000 !important;
+        }
+        .v-input--switch__track {
+            color: rgba(0, 0, 0, 1);
+        }
+    }
+}
+.big-menu {
+    background: #ffffff;
+    z-index: 999;
+    position: absolute;
+    border-radius: 0px;
+    height: 690px;
+    width: calc(80% - 100px);
+    max-width: 250px;
+    box-shadow: 0 2px 5px #999999;
+    overflow-y: scroll;
+    margin-top: 10px;
+    left: 0;
+
+    .menu-box {
+        padding: 20px;
+        .v-card,
+        .v-list {
+            background: none;
+        }
+        &.features {
+            background: #d5242c;
+            color: #ffffff;
+            height: 100%;
+            padding: 0 0px;
+        }
+        &.pages {
+            height: 100%;
+        }
+    }
+    h4 {
+        padding: 9px 21px;
+    }
+    .v-item--active {
+        color: rgb(218 218 218 / 97%) !important;
+    }
+}
+
+.top-bar {
+    .big-menu-btn {
+        padding: 0 !important;
+        min-width: auto !important;
+    }
+}
+.big-menu::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #f5f5f5;
+}
+.big-menu::-webkit-scrollbar {
+    width: 6px;
+    background-color: #f5f5f5;
+}
+.big-menu::-webkit-scrollbar-thumb {
+    background-color: #000000;
+}
+.search-box .v-input__control .v-input__slot {
+    border-radius: 47px !important;
+}
+.without-radius .v-input__control .v-input__slot {
+    border-radius: 3px !important;
+    background: #ebeaef !important;
+    box-shadow: none !important;
+    margin-bottom: 0;
+}
+.without-radius .v-input__slot .v-select__slot .v-label {
+    color: #333 !important;
+}
+.customer-detail-tab .v-slide-group__wrapper .v-tabs-bar__content {
+    background: #000000;
+    padding: 0px 25px;
+    max-height: 55px;
+}
+.customer-detail-tab .v-tabs-bar__content .v-tabs-slider-wrapper {
+    display: none;
+}
+.apply-position .v-input__control .v-input__slot {
+    min-height: 34px;
+    border-radius: 0;
+    box-shadow: 0px 1px 2px #ccc !important;
+}
+.switch-btns .v-input--switch .v-input--selection-controls__input {
+    width: 45px;
+    margin-right: 10px;
+}
+.switch-btns .v-input--switch__track {
+    width: 45px;
+    height: 25px;
+    top: calc(50% - 13px);
+    left: 0;
+    right: 0;
+    border-radius: 13px;
+}
+.switch-btns .v-input--switch__thumb {
+    box-shadow: none;
+    transform: translateX(4px);
+}
+.switch-btns .v-input .v-input__control .v-input__slot {
+    border: none !important;
+}
+.switch-btns .theme--light.v-input--switch .v-input--switch__track {
+    color: #6f6f6f;
+}
+.switch-btns .v-input--selection-controls {
+    margin-top: 0;
+}
+.switch-btns .v-input--switch .v-input__control {
+    margin-bottom: 5px;
+    box-shadow: none !important;
+}
+.details__tab .form-fields .v-input__control {
+    // don't uncomment min-height and height it may impact on customers form
+    // min-height: 60px;
+    margin-bottom: 17px;
+    // height: 40px;
+    box-shadow: 0px 3px 6px #cccccc59;
+}
+.details__tab .form-fields .v-input__slot {
+    font-size: 15px;
+    margin-bottom: 0px;
+    padding: 0px 15px;
+    border-radius: 4px;
+}
+.details__tab .form-fields .v-input__slot input::placeholder {
+    color: #3a3a3a;
+}
+.home {
+    margin-top: 0 !important;
+}
+.left-sidebar .v-list-item__content {
+    font-weight: 600;
+}
+.left-sidebar .v-list-item__content .v-list-item__title {
+    font-size: 14px;
+}
+.left-sidebar .v-list-item__icon {
+    margin-right: 20px !important;
+}
+.fixedNav .toggle-btn .v-btn__content .v-icon {
+    top: 1px;
+}
+.schdules-days .active .v-btn__content {
+    color: #fff !important;
+}
+.home-slider h1 {
+    margin-top: 10px !important;
+}
+.card-background-layer {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    z-index: -1;
+}
+.program-card-image .v-image__image {
+    z-index: 99999;
+}
+.program-card-image .v-card__title {
+    z-index: 99999;
+    position: relative;
+    word-break: break-word;
+}
+.programBlock-card {
+    height: auto;
+}
+.upcommingcardClass {
+    height: 350px;
+}
+.schedule-tabs .v-item-group.v-tabs-bar {
+    height: 100px !important;
+}
+.schedule-tabs .v-tabs-slider-wrapper {
+    color: #d0021b;
+    caret-color: #d0021b;
+    height: 4px !important;
+}
+button.Join-virtually-btn .v-btn__content {
+    color: #fff;
+    font-size: 16px;
+}
+.schedule-top-header .v-btn__content {
+    font-size: 22px;
+    color: #d0021b;
+    font-weight: 700;
+}
+.schedule-tabs .v-slide-group__wrapper:hover {
+    overflow-x: scroll;
+}
+.schedule-tabs .v-slide-group__wrapper::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #f5f5f5;
+}
+.schedule-tabs .v-slide-group__wrapper::-webkit-scrollbar {
+    height: 5px;
+    background-color: #f5f5f5;
+}
+.schedule-tabs .v-slide-group__wrapper::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border: 2px solid #555555;
+}
+.schedule-tabs {
+    .center-schedule-tab {
+        .v-slide-group__wrapper {
+            .v-slide-group__content {
+                display: inline-flex;
+                margin: auto;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+}
+.servicePlan-slideGroup {
+    .v-slide-group__next,
+    .v-slide-group__prev {
+        display: inline-flex !important;
+    }
+}
+.location-select-dropdown {
+    overflow-y: scroll;
+    max-height: 254px !important;
+    &::-webkit-scrollbar-track {
+        background-color: #fff;
+    }
+    &::-webkit-scrollbar {
+        width: 5px;
+        background-color: #fff;
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: #1976d2;
+        border: 2px solid #1976d2;
+        border-radius: 10px;
+    }
+}
+
+.customDevider {
+    width: 100px;
+    border: 3px solid;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.alignCenter {
+    margin: auto;
+}
+// Bigmistake by usama fixed with custom css margin of row
+// .row{
+//   margin:0px -12px !important;
+// }
+.offerJoinus-main {
+    .bigVideo {
+        width: 100%;
+        max-width: 100%;
+        height: 750px;
+        padding-top: 0;
+        object-fit: cover;
+        height: 750px;
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+.locations-btns-flex {
+    .v-btn {
+        .v-icon {
+            .v-icon__svg {
+                height: 14px;
+                width: 14px;
+                margin-right: 5px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .customer-detail-tab .v-slide-group__prev {
+        display: contents !important;
+    }
+    .customer-detail-tab .v-tabs-bar__content .v-tab {
+        padding: 0px 9px !important;
+        min-width: 67px !important;
+        font-size: 12px !important;
+    }
+    .home-slider h1 {
+        margin-top: 50px !important;
+        font-size: 22px !important;
+    }
+    .schedule-top-header .v-btn__content {
+        font-size: 12px;
+    }
+    .schedule-top-header .previous-week {
+        margin-right: 0;
+    }
+    .schedule-top-header .col {
+        max-width: 32%;
+    }
+    .schedule-top-header .next-week {
+        margin-left: 0;
+    }
+    .next-week .v-btn__content {
+        text-align: right;
+    }
+    .schedule-tabs .v-slide-group__prev {
+        display: none !important;
+    }
+    .schedule-tabs .v-slide-group__wrapper {
+        overflow-y: hidden;
+        overflow-x: scroll !important;
+        touch-action: auto !important;
+    }
+    .schedule-tabs .v-slide-group__wrapper:hover {
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+    .programBlock-card {
+        height: auto;
+    }
+    .our-program h2 {
+        font-size: 2.125rem !important;
+        line-height: 32px;
+    }
+    .footer {
+        .v-btn {
+            padding-top: 20px !important;
+            padding-bottom: 20px !important;
+        }
+    }
+    .plan-card-main {
+        .v-slide-group__wrapper {
+            touch-action: inherit;
+        }
+    }
+    .sasahsalon-slider {
+        .v-window__prev,
+        .v-window__next {
+            bottom: 95px;
+            text-align: center;
+            width: 36px;
+            height: 36px;
+            left: 0;
+            right: 0;
+            top: inherit;
+            background: #fff;
+            .v-icon {
+                color: #000;
+            }
+        }
+        .v-window__next {
+            left: 65px;
+        }
+    }
+    .offerJoinus-main {
+        .bigVideo {
+            width: 100%;
+            max-width: 100%;
+            height: 620px;
+            padding-top: 0;
+            object-fit: cover;
+            height: 620px;
+        }
+    }
+    .refrelheo-img {
+        img {
+            width: 100% !important;
+            height: 100%;
+        }
+    }
+    .blog-post {
+        img {
+            width: 100%;
+        }
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .schedule-tabs {
+        .v-slide-group__wrapper {
+            touch-action: auto !important;
+            overflow-x: scroll;
+        }
+    }
+    .plan-card-main {
+        .v-slide-group__wrapper {
+            touch-action: inherit;
+        }
+    }
+    .location-select-dropdown {
+        overflow-y: scroll;
+        max-height: 254px !important;
+    }
+}
+
+//please check

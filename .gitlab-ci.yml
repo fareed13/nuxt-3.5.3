@@ -1,0 +1,53 @@
+variables:
+  PIPELINE_NAME: 'Pipeline to run Cypress Tests'
+  BRANCH_A_PROD: 'a_prod_v3'
+  BRANCH_A_PREPROD: 'a_preprod_v3'
+  
+
+stages:
+  - test
+
+cache:
+  key: ${CI_COMMIT_REF_SLUG}
+  paths:
+    - node_modules/
+    - .npm/
+
+workflow:
+  name: '$PIPELINE_NAME'
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event" && $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == $BRANCH_A_PREPROD
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event" && $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == $BRANCH_A_PROD
+
+login_test:
+  image: cypress/browsers:latest
+  stage: test
+  script:
+    - export NODE_OPTIONS="--no-network-family-autoselection"
+    - export DEFAULT_PAGE_DOMAIN="lahore.abbitest1.com"
+    - export PORT=3999
+    - npm i
+    - npm ci
+    - npm run generate
+    - npx serve dist &
+    - npx cypress run --browser chrome --spec "cypress/e2e/pipeline-login-tests/*"
+    
+test:
+  image: cypress/browsers:latest  
+  stage: test
+  script:
+    - export NODE_OPTIONS="--no-network-family-autoselection"
+    - export DEFAULT_PAGE_DOMAIN="lahore.abbitest1.com"
+    - export PORT=3999
+    - npm i
+    - npm ci
+    - npm run generate
+    - npx serve dist &
+    - npx cypress run --browser chrome --spec "cypress/e2e/pipeline-tests/*"
+
+  artifacts:
+    when: always
+    paths:
+      - cypress/videos/**/*.mp4
+      - cypress/screenshots/**/*.png
+    expire_in: 7 day

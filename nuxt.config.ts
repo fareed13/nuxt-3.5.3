@@ -53,7 +53,7 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     'nuxt-jsonld',
     '@nuxt/image',
-    'nuxt-speedkit',
+    'nuxt-booster',
     '@vite-pwa/nuxt',
     // 'nuxt-simple-sitemap',
     ['@nuxtjs/robots', {
@@ -117,8 +117,8 @@ export default defineNuxtConfig({
     },
   },
 
-  // speed kit config
-  speedkit: {
+  //booster
+  booster: {
 
     detection: {
       performance: true,
@@ -222,6 +222,8 @@ export default defineNuxtConfig({
       }
     ],
 
+    targetFormats: ['webp', 'avif', 'jpg|jpeg|png|gif'],
+
     componentAutoImport: false,
     componentPrefix: undefined,
 
@@ -231,12 +233,6 @@ export default defineNuxtConfig({
     lazyOffset: {
       component: '0%',
       asset: '0%'
-    },
-
-    loader: {
-      dataUri: null,
-      size: '100px',
-      backgroundColor: 'grey'
     }
 
   },
